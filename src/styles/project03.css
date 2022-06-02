@@ -1,0 +1,43 @@
+.project03--back {
+  background-color: black;
+}
+.project03 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  padding: 135px 0 115px 0;
+  color: white;
+}
+.project03--info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 405px;
+  text-align: right;
+}
+.project03--btn {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 30px;
+  margin-top: 25px;
+}
+.project03--subtext {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.project3--title {
+  font-size: 36px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.project03--uptext, 
+.project03--number {
+  font-size: 16px;
+  font-weight: 500;
+}

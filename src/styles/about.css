@@ -1,0 +1,55 @@
+.about {
+  padding-top: 70px;
+  position: relative;
+  max-width: 1440px;
+  height: 1090px;
+  margin: 0 auto;
+}
+.photo--info {
+  display: flex;
+}
+.about--text {
+  width: 515px;
+  margin-left: 80px;
+}
+.about--title {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.about--subtext {
+  font-size: 14px;
+  width: 75%;
+  margin-bottom: 15px;
+}
+.about--btn--div {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about--btn--div p {
+  animation: rotating 2s linear infinite;
+}
+@keyframes rotating{
+  from {
+    transform: translate(0); 
+  }
+  to {
+    transform: translate(12px);
+  }
+}
+.about--btn {
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 0;
+  background: none;
+  cursor: pointer;
+}
+.photo2 {
+  position: absolute;
+  top: 625px;
+  right: 0;
+  padding-bottom: 115px;
+}
