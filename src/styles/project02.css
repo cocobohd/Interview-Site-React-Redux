@@ -10,6 +10,7 @@
 }
 .back--video {
   width: 100%;
+  height: 1007px;
   position: absolute;
   z-index: 0;
 }

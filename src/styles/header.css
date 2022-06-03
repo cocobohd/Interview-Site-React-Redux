@@ -4,7 +4,6 @@
   width: 100%;
   height: 100vh;
 }
-
 .header {
   width: 100%;
   padding: 25px 25px 0 25px;
@@ -12,19 +11,19 @@
   justify-content: space-between;
   transition: 0.5s all;
 }
-
 .header.fixed {
   position: fixed;
   background-color: rgba(116, 116, 116, 0.308);
-  z-index: 1000;
+  z-index: 1006;
   padding: 10px;
 }
-
+.header.menu {
+  background-color: #777B60;
+}
 .logo {
   color: white;
   font-size: 24px;
 }
-
 .burger-menu {
   cursor: pointer;
   width: auto;
@@ -34,11 +33,9 @@
   align-items: center;
   transition: 0.5s all;
 }
-
 .burger-menu.active {
   transform: rotateZ(90deg);
 }
- 
 .burger-line {
   width: 40px;
   height: 3px;
@@ -46,7 +43,6 @@
   border-radius: 30px;
   position: relative;
 }
-
 .burger-line::after {
   width: 40px;
   height: 3px;
