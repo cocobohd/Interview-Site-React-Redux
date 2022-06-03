@@ -5,7 +5,6 @@ import "../../styles/project04.css"
 
 export default function Project04() {
   const imgs = React.createRef()
-  
 
   function firstPhoto() {
     const imgsDiv = imgs.current

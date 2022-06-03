@@ -23,9 +23,9 @@ export default function Project01() {
         </div>
       </div>
       
-      <div className="project01--img">
+      <div className="project01--img--number">
         <p className="project01--number">01</p>
-        <img className="img" src={photo} alt="1" />
+        <img className="project01--img" src={photo} alt="1" />
       </div>
     </div>
   )

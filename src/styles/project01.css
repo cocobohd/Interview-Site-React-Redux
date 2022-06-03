@@ -34,6 +34,11 @@
   cursor: pointer;
   margin-right: 30px;
 }
-.img {
+.project01--img {
   margin-top: 30px;
+}
+.project01--img--number {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
