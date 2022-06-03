@@ -1,0 +1,112 @@
+.project04 {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 60px 0 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.project04--info {
+  text-align: end;
+  width: 475px;
+}
+.project04--num {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.project04--uptitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+.img {
+  margin-bottom: 60px;
+}
+.project04--title {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.project04--subtext {
+  padding-left: 60px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.project04--btn {
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 30px;
+  margin-top: 25px;
+}
+.project04--slider {
+  position: relative;
+  width: 685px;
+  padding-right: 90px;
+  display: flex;
+  overflow: hidden;
+  z-index: 0;
+}
+.project04--imgs {
+  display: flex;
+  transition: 0.5s all;
+}
+.project04--imgs.third {
+  transform: translate(-1372px);
+}
+.project04--imgs.second {
+  transform: translate(-686px);
+}
+.project04--imgs.first {
+  transform: translate(0px);
+}
+.slider--nav {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  z-index: 100;
+}
+.circle1 {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  margin-left: 47%;
+  position: absolute;
+  bottom: 25px;
+  transition: 0.4s all;
+}
+.circle2 {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  margin-left: 50%;
+  position: absolute;
+  bottom: 25px;
+  transition: 0.4s all;
+}
+.circle3 {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  margin-left: 53%;
+  position: absolute;
+  bottom: 25px;
+  transition: 0.4s all;
+}
+.circle1:hover,
+.circle2:hover,
+.circle3:hover {
+  background-color: rgb(255, 255, 255);
+}

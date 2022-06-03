@@ -1,0 +1,25 @@
+.footer {
+  max-width: 1440px;
+  padding: 66px 50px 77px 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.all--rights {
+  color: #01010136;
+}
+.findus {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+}
+.findus--text {
+  margin-right: 175px;
+}
+.link1 {
+  margin-right: 25px;
+}
+.link1,
+.link2 {
+  color: black;
+}

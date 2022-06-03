@@ -1,0 +1,39 @@
+.project01 {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 185px 0 110px 0;
+}
+.project01--info {
+  text-align: end;
+  width: 405px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project01--number, 
+.project01--uptext {
+  font-size: 16px;
+  font-weight: 500;
+}
+.project01--title {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.project01--subtext {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.project01--btn {
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.img {
+  margin-top: 30px;
+}
