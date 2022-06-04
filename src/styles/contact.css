@@ -1,0 +1,73 @@
+.burger-line.black::before,
+.burger-line.black::after,
+.burger-line.black {
+  background-color: black;
+}
+
+.contact--div {
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.contact--container {
+  border-top: 1px black solid;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+.contact--container.last {
+  border-bottom: 1px black solid;
+}
+.contact--container.submit {
+  background-color: black;
+  margin-top: 110px;
+}
+.contact--container.btn:hover {
+  background-color: white;
+}
+.contact--container.btn:hover p,
+.contact--container.btn:hover button {
+  color: black;
+}
+.contact--num {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  margin-right: 15px;
+}
+.contact--title {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 36px;
+  font-weight: 500;
+}
+.contact--field {
+  font-size: 72px;
+  font-weight: 500;
+  border: none;
+}
+.contact--field::placeholder {
+  color: black;
+}
+.contact--field:focus {
+  outline: none;
+  background: none;
+}
+.contact--field.btn {
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+.contact--num.btn {
+  color: white;
+}
+.footer.contact {
+  max-width: 1440px;
+  padding: 50px 0 ;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}

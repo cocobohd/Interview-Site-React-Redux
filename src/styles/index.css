@@ -21,3 +21,11 @@ body::-webkit-scrollbar-thumb {
   background-color: #737272;
   border: 1px solid #000;
 }
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link.white {
+  text-decoration: none;
+  color: white;
+}

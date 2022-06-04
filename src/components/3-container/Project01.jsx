@@ -1,5 +1,6 @@
 import "../../styles/project01.css"
 import photo from "../../imgs/3-container-photoProject01.png"
+import { Link } from "react-router-dom"
 
 export default function Project01() {
   return (
@@ -19,7 +20,11 @@ export default function Project01() {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
             officia deserunt mollit anim id est laborum.
           </p>
-          <button className="project01--btn">View Project</button>
+          <button className="project01--btn">
+            <Link className="link" to="/project-info" >
+              View Project
+            </Link>
+          </button>
         </div>
       </div>
       

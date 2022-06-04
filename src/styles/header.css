@@ -9,13 +9,13 @@
   padding: 25px 25px 0 25px;
   display: flex;
   justify-content: space-between;
-  transition: 0.5s all;
+  transition: 0.5s all ease;
 }
 .header.fixed {
   position: fixed;
-  background-color: rgba(116, 116, 116, 0.308);
+  background-color: #777b6050;
   z-index: 1006;
-  padding: 10px;
+  padding: 25px 25px 10px 25px;
 }
 .header.menu {
   background-color: #777B60;

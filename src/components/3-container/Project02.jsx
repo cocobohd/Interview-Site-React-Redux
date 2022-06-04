@@ -1,6 +1,7 @@
 import video from "../../imgs/3-container-video.mp4"
 import "../../styles/project02.css"
 import React from "react"
+import { Link } from "react-router-dom"
 
 export default function Project02() {
   const videoDiv = React.createRef()
@@ -26,7 +27,11 @@ export default function Project02() {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
               officia deserunt mollit anim id est laborum.
             </p>
-            <button className="project02--btn">View Project</button>
+            <button className="project02--btn">
+              <Link className="link white" to="/project-info" >
+                View Project
+              </Link>
+            </button>
         </div>
         <p className="playStop"><span onClick={() => videoDiv.current.play()}>play</span> / <span onClick={() => videoDiv.current.pause()}>stop</span></p>
       </div>

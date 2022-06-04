@@ -1,5 +1,6 @@
 import "../../styles/project03.css"
 import photo from "../../imgs/3-container-photoProject03.png"
+import { Link } from "react-router-dom"
 
 export default function Project03() {
   return (
@@ -21,7 +22,11 @@ export default function Project03() {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
               officia deserunt mollit anim id est laborum.
             </p>
-            <button className="project03--btn">View Project</button>
+            <button className="project03--btn">
+              <Link className="link white" to="/project-info" >
+                View Project
+              </Link>
+            </button>
           </div>
         </div>
         <img src={photo} alt="3" />

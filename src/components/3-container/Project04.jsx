@@ -2,6 +2,7 @@ import React from "react"
 import photo1 from "../../imgs/3-container-photo1Project04.png"
 import photo2 from "../../imgs/3-container-photo2Project04.png"
 import "../../styles/project04.css"
+import { Link } from "react-router-dom"
 
 export default function Project04() {
   const imgs = React.createRef()
@@ -52,7 +53,11 @@ export default function Project04() {
           creatives and brands to help them break through the noise. 
           Oridnary likes to challenge the ordinary.
         </p>
-        <button className="project04--btn">View Project</button>
+        <button className="project04--btn">
+          <Link className="link" to="/project-info" >
+            View Project
+          </Link>
+        </button>
       </div>
       <div className="project04--slider">
         <div className="project04--imgs" ref={imgs}>

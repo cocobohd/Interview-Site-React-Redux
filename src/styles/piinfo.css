@@ -1,0 +1,126 @@
+.piinfo {
+  padding-top: 235px;
+}
+.piinfo--textdiv {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.piinfo--uptitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.piinfo--title--num {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.piinfo--num {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+.piinfo--title {
+  font-size: 72px;
+  font-weight: 500;
+}
+.piinfo--subtextdiv {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+.piinfo--subtext {
+  font-size: 36px;
+  font-weight: 500;
+  width: 60%;
+}
+.piinfo--services h2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.piinfo--services p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.piinfo--slider {
+  margin-top: 210px;
+  overflow: hidden;
+}
+.piinfo--photos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: slide 10s linear infinite;
+}
+@keyframes slide{
+  0% {
+    transform: translate(-100px); 
+  }
+  50% {
+    transform: translate(100px);
+  }
+  100% {
+    transform: translate(-100px); 
+  }
+}
+.piinfo--photo2 {
+  height: 420px;
+}
+.piinfo--lastwords {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 115px;
+}
+.piinfo--div--video {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: black;
+}
+.piinfo--container {
+  padding-top: 180px;
+  max-width: 1440px;
+}
+.piinfo--video {
+  width: 1181px;
+}
+.piinfo--videofunc {
+  padding-top: 20px;
+  padding-bottom: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.piinfo--playstop,
+.piinfo--videofull {
+  color: white;
+  cursor: pointer;
+}
+.piinfo--nextproj {
+  color: white;
+  font-size: 64px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.footer.black {
+  background-color: black;
+  width: 100%;
+  padding: 75px 145px 60px 130px;
+}
+.all--rights.black {
+  color: rgba(255, 255, 255, 0.37);
+}
+.findus--text.black {
+  color: white;
+}
+.link1.black,
+.link2.black {
+  color: white;
+}
