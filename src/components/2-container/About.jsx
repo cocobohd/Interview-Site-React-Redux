@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "../../styles/about.css"
 import photo1 from "../../imgs/2-container-photo1.png"
 import photo2 from "../../imgs/2-container-photo2.png"
@@ -19,12 +20,12 @@ export default function About() {
             for our collaborators, applying reason and rationality to the process of design.
           </p>
           <div className="about--btn--div">
-            <button className="about--btn">About us</button>
-            <p>🠒</p>
+            <Link className="about--btn" to="/about">About us</Link>
+            <p>⟶</p>
           </div>
         </div>
       </div>
-      <img className="photo2" src={photo2} alt="2" />
+      <img className="about--photo2" src={photo2} alt="2" />
     </div>
   )
 }

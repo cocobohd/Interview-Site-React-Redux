@@ -22,7 +22,7 @@ export default function HeaderItem(prop) {
   }
   return (
     <>
-      <header className={offset >= 100 || isBurgerActive ? "header fixed" : "header"}>
+      <header className={offset >= 60 || isBurgerActive ? "header fixed" : "header"}>
         <p className="logo">
           <Link className={prop.link} to="/home">INTERVIEW</Link> 
         </p>

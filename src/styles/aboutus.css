@@ -1,0 +1,85 @@
+.aboutus--text {
+  max-width: 1440px;
+  height: 80vh;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+.aboutus--info {
+  width: 435px;
+}
+.aboutus--title {
+  font-size: 36px;
+  font-weight: 500;
+  max-width: 360px;
+  margin-bottom: 20px;
+}
+.aboutus--subtext,
+.aboutus--subtext2 {
+  font-size: 14px;
+}
+.aboutus--subtext2{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.aboutus--contact {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+.aboutus--photo1 {
+  position: absolute;
+  top: 210px;
+  left: -50px;
+}
+.aboutus--photo2 {
+  width: 680px;
+  position: absolute;
+  bottom: -200px;
+  right: 0;
+}
+.aboutus--photo3 {
+  width: 1200px;
+  height: 715px;
+  margin-bottom: 170px;
+}
+.aboutus--services {
+  background-color: black; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 350px 0 150px 0;
+  display: flex;
+  color: white;
+}
+.aboutus--services--title {
+  font-size: 36px;
+  font-weight: 500;
+}
+.aboutus--servicestext {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+.aboutus--services--items {
+  max-width: 380px;
+  margin-bottom: 75px;
+}
+.aboutus--services--items h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+.aboutus--services--items p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.aboutus--services--container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 70%;
+}

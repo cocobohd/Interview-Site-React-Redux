@@ -1,0 +1,61 @@
+.projects--item {
+  height: 100vh;
+}
+.projects--item.photo1 {
+  background: url("../imgs/projects--photo1.png");
+  background-size: cover;
+}
+.projects--item.photo2 {
+  background: url("../imgs/projects--photo2.png");
+  background-size: cover;
+}
+.projects--item.photo3 {
+  background: url("../imgs/projects--photo3.png");
+  background-size: cover;
+}
+.projects--item.photo4 {
+  background: url("../imgs/projects--photo4.png");
+  background-size: cover;
+}
+.projects--info {
+  max-width: 1440px;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 auto;
+  color: white;
+}
+.projects--text {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end
+}
+.projects--subtext {
+  max-width: 490px;
+  font-size: 14px;
+}
+.projects--view {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.projects--numname {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 76px;
+}
+.projects--title {
+  font-size: 64px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.projects--numname p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.link.white.projects {
+  position: fixed;
+}

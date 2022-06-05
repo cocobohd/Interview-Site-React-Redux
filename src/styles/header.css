@@ -10,9 +10,10 @@
   display: flex;
   justify-content: space-between;
   transition: 0.5s all ease;
+  position: fixed;
+  z-index: 1;
 }
 .header.fixed {
-  position: fixed;
   background-color: #777b6050;
   z-index: 1006;
   padding: 25px 25px 10px 25px;
