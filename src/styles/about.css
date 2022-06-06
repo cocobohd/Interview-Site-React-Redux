@@ -57,3 +57,43 @@
   right: 0;
   padding-bottom: 115px;
 }
+
+@media (max-width: 780px) {
+  .about--text {
+    margin-left: 50px;
+  }
+  .about--title {
+    font-size: 23px;
+  }
+  .about--photo2 {
+    position: relative;
+    margin: 0 auto;
+    top: 20px;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .about {
+    padding-top: 0;
+    height: auto;
+  }
+  .photo--info {
+    flex-direction: column-reverse;
+    margin-top: 75px;
+  }
+  .about--text {
+    margin-left: 15px;
+    width: 100%;
+  }
+  .about--photo2 {
+    display: none;
+  }
+  .photo--info img {
+    height: 460px;
+  }
+}

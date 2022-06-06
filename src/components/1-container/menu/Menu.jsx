@@ -49,7 +49,7 @@ export default function Menu({isVisible}) {
           </div>
         </div>
         <Footer 
-          footer="footer"
+          footer="footer--menu"
           allRights="all--rights"
           findUs="findus--text"
           link1="link1"

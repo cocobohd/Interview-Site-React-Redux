@@ -7,11 +7,11 @@ export default function Project02() {
   const videoDiv = React.createRef()
 
   return (
-    <div>
-      <video className="back--video" autoPlay muted loop ref={videoDiv}>
-        <source src={video} type="video/mp4" />
-      </video>
+    <div className="project02--general">
       <div className="project02">
+        <video className="back--video" muted loop ref={videoDiv}>
+          <source src={video} type="video/mp4" />
+        </video>
         <div className="project02--info">
             <p className="project02--number">02</p>
             <p className="project02--uptext">Featured Project</p>

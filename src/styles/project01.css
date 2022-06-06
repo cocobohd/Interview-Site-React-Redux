@@ -12,6 +12,11 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.project01--number--hide {
+  display: none;
+  font-size: 16px;
+  font-weight: 500;
+}
 .project01--number, 
 .project01--uptext {
   font-size: 16px;
@@ -41,4 +46,48 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .project01 {
+    padding: 130px 0 0 0;
+  }
+  .project01--img--number img {
+    width: 100%;
+  }
+  .project01--img--number {
+    padding-left: 40px;
+  }
+}
+@media (max-width: 960px) {
+  .project01 {
+    padding: 180px 0 90px 0;
+  }
+}
+@media (max-width: 780px) {
+  .project01 {
+    padding: 75px 0 0 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project01--img--number img,
+  .project01--info {
+    width: 100%;
+  }
+  .project01--title {
+    margin-top: 20px;
+  }
+  .project01--number--hide {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .project01--number {
+    display: none;
+  }
+  .project01--img--number {
+    padding: 0;
+  }
+  .project01--info {
+    padding: 0 15px;
+  }
 }

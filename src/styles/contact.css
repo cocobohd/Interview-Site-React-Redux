@@ -71,3 +71,40 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 1600px) {
+  .contact--title {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 40px;
+  }
+  .contact--div,
+  .footer.contact {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .contact--field {
+    font-size: 32px;
+  }
+  .footer.contact {
+    max-width: 950px;
+  }
+}
+
+@media (max-width: 780px) {
+  .contact--title {
+    font-size: 34px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 40px;
+  }
+  .contact--div,
+  .footer.contact {
+
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .contact--field {
+    font-size: 24px;
+  }
+}

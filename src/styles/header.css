@@ -64,3 +64,14 @@
   color: white;
   content: "";
 }
+
+@media (max-width: 760px) {
+  .back--header {
+    background-position-x: 42%;
+  }
+}
+@media (max-width: 480px) {
+  .back--header {
+    height: 60vh;
+  }
+}

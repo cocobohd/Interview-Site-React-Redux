@@ -47,3 +47,16 @@
   top: 200px;
   right: 200px;
 }
+
+@media (max-width: 1090px) {
+  .clients--photo {
+    z-index: -1;
+  }
+  .clients--div {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .clients--title {
+    font-size: 32px;
+  }
+}

@@ -6,6 +6,8 @@ export default function Project01() {
   return (
     <div className="project01">
       <div className="project01--info">
+        
+        <p className="project01--number--hide">01</p>
         <p className="project01--uptext">Featured Project</p> 
         <div>
           <h1 className="project01--title">Project Title</h1>

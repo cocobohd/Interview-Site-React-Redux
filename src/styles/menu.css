@@ -46,6 +46,50 @@
 .menu--all--divs {
   padding-top: 120px;
 }
-.footer {
-  width: 1400px;
+.footer--menu{
+  min-width: 1440px;
+  margin: 0 auto;
+  padding: 66px 50px 77px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1600px) {
+  .menu--container {
+    padding-left: 40px;
+  }
+  .footer--menu {
+    min-width: 1200px
+  }
+}
+@media (max-width: 1200px) {
+  .footer--menu {
+    min-width: 1000px;
+  }
+}
+@media (max-width: 970px) {
+  .footer--menu {
+    min-width: auto;
+  }
+  .menu--title {
+    font-size: 32px;
+  }
+  .menu--div {
+    padding: 5px 0;
+  }
+  .menu--all--divs {
+    padding-top: 75px;
+  }
+}
+@media (max-width: 480px) {
+  .menu {
+    height: auto;
+  }
+  .footer--menu,
+  .findus {
+    flex-direction: column-reverse;
+  }
+  .footer--menu {
+    padding: 40px;
+  }
 }

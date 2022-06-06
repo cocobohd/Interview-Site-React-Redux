@@ -1,6 +1,9 @@
+.project02--general {
+  background-color: black;
+}
 .project02 {
   max-width: 1440px;
-  height: 900px;
+  height: 760px;
   position: relative;
   color: white;
   display: flex;
@@ -10,7 +13,6 @@
 }
 .back--video {
   width: 100%;
-  height: 1007px;
   position: absolute;
   z-index: 0;
 }
@@ -18,7 +20,8 @@
   z-index: 1;
   position: relative;
   width: 410px;
-  margin-top: 400px;
+  margin-top: 200px;
+  margin-left: 40px;
 }
 .project02--number {
   font-size: 16px;
@@ -49,7 +52,58 @@
 }
 .playStop {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 50px;
+  right: 25px;
   cursor: pointer;
+}
+
+/* MEDIA _____--------->>>>>>>>> */
+
+@media (max-width: 1600px) {
+  .project02 {
+    height: auto;
+  }
+  .project02--info {
+    margin-top: 70px;
+    margin-left: 40px;
+  }
+  .playStop {
+    bottom: 0;
+    right: 40px;
+  }
+}
+
+@media (max-width: 960px) {
+  .project02 {
+    height: auto;
+  }
+  .playStop {
+    bottom: 0;
+  }
+}
+
+@media (max-width: 780px) {
+  .project02--info {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .back--video {
+    width: 350%;
+    left: -245px;
+    height: 650px;
+  }
+  .project02--general {
+    overflow: hidden;
+  }
+  .project02 {
+    height: 610px;
+  }
+  .playStop {
+    bottom: 75px;
+  }
+  .project02--info {
+    margin: 15px;
+    width: 100%;
+  }
 }

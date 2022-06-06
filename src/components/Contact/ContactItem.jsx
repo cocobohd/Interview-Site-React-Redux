@@ -16,7 +16,7 @@ export default function ContactItem() {
       <Form>
         <div className="contact--container">
             <div className="contact--div">
-              <p className="contact--num">(3)</p>
+              <p className="contact--num">(1)</p>
               <h1 className="contact--text">
                 <Field className="contact--field" name="name" type="text" placeholder="Name" />
               </h1>
@@ -24,7 +24,7 @@ export default function ContactItem() {
         </div>
         <div className="contact--container">
             <div className="contact--div">
-              <p className="contact--num">(3)</p>
+              <p className="contact--num">(2)</p>
               <h1 className="contact--text">
                 <Field className="contact--field" name="email" type="email" placeholder="Email"/>
               </h1>
@@ -40,7 +40,7 @@ export default function ContactItem() {
         </div>
         <div className="contact--container btn last submit">
             <div className="contact--div">
-              <p className="contact--num btn">(3)</p>
+              <p className="contact--num btn">(4)</p>
               <h1 className="contact--text">
                 <button className="contact--field btn" type="submit">Submit</button>
               </h1>
