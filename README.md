@@ -1,2 +1,2 @@
 # Actually designer site, with links with animations, sliders, and others!
-https://earnest-sprite-7ad582.netlify.app/
+https://delightful-fox-0ab245.netlify.app/
