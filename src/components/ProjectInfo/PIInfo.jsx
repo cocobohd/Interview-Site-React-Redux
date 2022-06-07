@@ -49,7 +49,7 @@ export default function PIInfo() {
 
         <div className="piinfo--div--video">
           <div className="piinfo--container">
-            <video className="piinfo--video" autoPlay muted loop ref={videoDiv}>
+            <video className="piinfo--video" muted loop ref={videoDiv}>
               <source src={video} type="video/mp4" />
             </video>
             <div className="piinfo--videofunc">

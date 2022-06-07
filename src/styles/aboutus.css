@@ -83,3 +83,117 @@
   flex-wrap: wrap;
   max-width: 70%;
 }
+
+@media (max-width: 1600px) {
+  .aboutus--text {
+    width: 100%;
+    height: 800px;
+  }
+  .aboutus--photo3 {
+    width: 100%;
+    height: auto;
+    padding: 0 25px;
+  }
+}
+@media (max-width: 1200px) {
+  .aboutus--text {
+    padding-left: 400px;
+  }
+  .aboutus--photo1 {
+    width: 410px;
+  }
+  .aboutus--photo2 {
+    right: 50px;
+  }
+  .aboutus--servicestext {
+    width: 100%;
+    padding: 0 25px;
+  }
+  .aboutus--photo3 {
+    margin-bottom: 75px;
+  }
+  .aboutus--services--items {
+    width: 320px;
+  }
+  .aboutus--services {
+    padding-bottom: 75px;
+  }
+}
+@media (max-width: 800px) {
+  .aboutus--photo2 {
+    right: 0;
+  }
+  .aboutus--services--items {
+    width: 100%;
+  }
+  .aboutus--services--container {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 800px) {
+  .aboutus {
+    overflow: hidden;
+  }
+  .aboutus--photo2 {
+    right: 0;
+  }
+  .aboutus--services--items {
+    width: 100%;
+  }
+  .aboutus--services--container {
+    max-width: 60%;
+  }
+  .aboutus--photo1 {
+    width: 300px;
+  }
+  .aboutus--photo2 {
+    width: 400px;
+    bottom: -100px;
+  }
+  .aboutus--text {
+    padding-left: 300px;
+    padding-top: 85px;
+    height: 600px;
+  }
+  .aboutus--services {
+    padding-top: 170px;
+  }
+}
+@media (max-width: 600px) {
+  .aboutus--photo1, 
+  .aboutus--photo2 {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    width: 100%;
+  }
+  .aboutus--photo1 {
+    padding-top: 40px;
+  }
+  .aboutus--text {
+    flex-direction: column;
+    padding: 85px 25px;
+    height: auto;
+  }
+  .aboutus--info {
+    width: 100%;
+  }
+  .aboutus--title{
+    font-size: 30px;
+  }
+  .aboutus--servicestext {
+    flex-direction: column;
+  }
+  .aboutus--services--container{
+    max-width: 100%;
+  }
+  .aboutus--services--title {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .aboutus--services {
+    padding-top: 75px;
+  }
+}

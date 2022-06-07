@@ -4,3 +4,13 @@
   background-image: url("../imgs/project--info--back.png");
   background-size: cover;
 }
+@media (max-width: 1200px) {
+  .projectInfo {
+    background-position-x: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .projectInfo {
+    height: 60vh;
+  }
+}

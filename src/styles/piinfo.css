@@ -124,3 +124,87 @@
 .link2.black {
   color: white;
 }
+
+@media (max-width: 1600px) {
+  .piinfo {
+    padding-top: 75px;
+  }
+  .piinfo--textdiv {
+    padding: 0 25px;
+  }
+  .piinfo--photos img {
+    margin-right: 45px;
+  }
+  .piinfo--lastwords {
+    margin: 25px;
+  }
+  .piinfo--container {
+    padding-top: 75px;
+  }
+  .piinfo--videofunc {
+    padding: 20px 25px 75px 25px;
+  }
+  .piinfo--video {
+    width: 100%;
+  }
+  .piinfo--nextproj {
+    padding: 0 25px;
+  }
+}
+@media (max-width: 1200px) {
+  .piinfo--slider {
+    margin-top: 75px;
+  }
+}
+@media (max-width: 800px) {
+  .piinfo--subtext {
+    width: 65%;
+  }
+  .footer.black {
+    padding: 30px 25px;
+  }
+}
+@media (max-width: 650px) {
+  
+  .piinfo--title {
+    font-size: 36px;
+  }
+  .piinfo--subtext {
+    font-size: 18px;
+  }
+  .piinfo--photo2 {
+    height: auto;
+  }
+  .piinfo--photos img {
+    width: 70%;
+  }
+  .piinfo--photos {
+    animation: slide 20s linear infinite;
+  }
+  @keyframes slide{
+    0% {
+      transform: translate(-600px); 
+    }
+    50% {
+      transform: translate(100px);
+    }
+    100% {
+      transform: translate(-600px); 
+    }
+  }
+  .piinfo--subtextdiv {
+    flex-direction: column;
+    padding: 0;
+  }
+  .piinfo--subtext {
+    width: 100%;
+    padding-bottom: 25px;
+  }
+  .piinfo--nextproj {
+    font-size: 32px;
+  }
+  .piinfo--title--num {
+    margin-bottom: 25px;
+  }
+}
+
