@@ -89,4 +89,10 @@
   .projects--subtext {
     max-width: 325px;
   }
+  .projects--info {
+    width: 80%;
+  }
+  .projects--item {
+    width: 70vh;
+  }
 }

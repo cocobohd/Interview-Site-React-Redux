@@ -20,11 +20,17 @@ export default function HeaderItem(prop) {
   function burger() {
     dispatch(burgerMenu())
   }
+
+  function closeBurger() {
+    if (isBurgerActive === true) {
+      dispatch(burgerMenu())
+    }
+  }
   return (
     <>
       <header className={offset >= 60 || isBurgerActive ? "header fixed" : "header"}>
         <p className="logo">
-          <Link className={prop.link} to="/home">INTERVIEW</Link> 
+          <Link className={prop.link} to="/home" onClick={() => closeBurger()}>INTERVIEW</Link> 
         </p>
         <div className={isBurgerActive ? "burger-menu active" : "burger-menu"} onClick={() => burger()}>
             <p className={prop.burgerLine} />

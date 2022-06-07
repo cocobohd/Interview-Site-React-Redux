@@ -66,7 +66,7 @@
 }
 @media (max-width: 780px) {
   .project01 {
-    padding: 75px 0 0 0;
+    padding: 50px 0 0 0;
     flex-direction: column;
     align-items: center;
   }

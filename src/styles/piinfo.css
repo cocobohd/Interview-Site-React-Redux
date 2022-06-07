@@ -165,7 +165,9 @@
   }
 }
 @media (max-width: 650px) {
-  
+  .piinfo {
+    padding-top: 50px;
+  }
   .piinfo--title {
     font-size: 36px;
   }

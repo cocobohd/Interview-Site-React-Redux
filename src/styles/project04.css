@@ -19,6 +19,13 @@
   font-weight: 500;
   margin-bottom: 70px;
 }
+.project04--num.hidden {
+  display: none;
+}
+.project04--uptitle.hidden {
+  margin-bottom: 20px;
+  display: none;
+}
 .img {
   margin-bottom: 60px;
 }
@@ -145,9 +152,15 @@
   }
   .project04--num {
     margin-bottom: 20px;
+    display: none;
   }
   .project04--uptitle {
     margin-bottom: 40px;
+    display: none;
+  }
+  .project04--num.hidden,
+  .project04--uptitle.hidden {
+    display: block;
   }
 }
 

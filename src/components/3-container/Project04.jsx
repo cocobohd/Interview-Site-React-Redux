@@ -46,6 +46,8 @@ export default function Project04() {
         <p className="project04--num">04</p>
         <p className="project04--uptitle">Featured Project</p>
         <img className="img" src={photo1} alt="1" />
+        <p className="project04--num hidden">04</p>
+        <p className="project04--uptitle hidden">Featured Project</p>
         <h1 className="project04--title">Oridnary Challenge</h1>
         <p className="project04--subtext">
           Oridnary is a Gothenburg-based creative development studio.
